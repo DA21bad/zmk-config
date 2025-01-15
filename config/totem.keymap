@@ -36,13 +36,8 @@
 
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <1 0>;
+            key-positions = <10 20>;
             bindings = <&kp ESC>;
-        };
-
-        Task_manager {
-            bindings = <&kp RC(RA(BACKSPACE))>;
-            key-positions = <30 31 19>;
         };
 
         backspace {
@@ -52,12 +47,12 @@
 
         Delete {
             bindings = <&kp DEL>;
-            key-positions = <1 0>;
+            key-positions = <0 1>;
         };
 
         Tabulate {
             bindings = <&kp TAB>;
-            key-positions = <10 11>;
+            key-positions = <11 10>;
         };
 
         gaming_layer {
@@ -67,7 +62,7 @@
 
         Enter {
             bindings = <&kp ENTER>;
-            key-positions = <30 29>;
+            key-positions = <18 19>;
         };
 
         qwerty {
@@ -107,10 +102,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp Q  &kp W  &kp F             &kp P   &kp B        &kp J      &kp L   &kp U        &kp Y    &kp SEMICOLON
-                &kp A  &kp R  &kp S             &kp T   &kp G        &kp M      &kp N   &kp E        &kp I    &kp O
-&kp LEFT_SHIFT  &kp X  &kp C  &kp D             &kp V   &kp Z        &kp K      &kp H   &kp COMMA    &kp DOT  &kp SLASH      &kp LEFT_WIN
-                              &kp LEFT_CONTROL  &tog 1  &kp SPACE    &kp SPACE  &tog 2  &kp LA(TAB)
+                &kp Q  &kp W  &kp F             &kp P   &kp B        &kp J      &kp L   &kp U          &kp Y    &kp SEMICOLON
+                &kp A  &kp R  &kp S             &kp T   &kp G        &kp M      &kp N   &kp E          &kp I    &kp O
+&kp LEFT_SHIFT  &kp X  &kp C  &kp D             &kp V   &kp Z        &kp K      &kp H   &kp COMMA      &kp DOT  &kp SLASH      &kp LEFT_WIN
+                              &kp LEFT_CONTROL  &tog 1  &kp SPACE    &kp SPACE  &tog 2  &kp RIGHT_ALT
             >;
         };
 
