@@ -64,6 +64,11 @@
             bindings = <&tog 5>;
             key-positions = <19 10>;
         };
+
+        gamimg {
+            bindings = <&tog 4>;
+            key-positions = <7 2>;
+        };
     };
 
     keymap {
@@ -88,10 +93,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-          &kp Q           &kp W           &kp F             &kp P               &kp B        &kp J      &kp L                &kp U              &kp Y            &kp SEMICOLON
-          &mt LEFT_WIN A  &mt LEFT_ALT R  &mt LEFT_SHIFT S  &mt LEFT_CONTROL T  &kp G        &kp M      &mt RIGHT_CONTROL N  &mt RIGHT_SHIFT E  &mt RIGHT_ALT I  &mt RIGHT_WIN O
-&kp CAPS  &kp X           &kp C           &kp D             &kp V               &kp Z        &kp K      &kp H                &kp COMMA          &kp DOT          &kp SLASH        &kp LEFT_BRACKET
-                                          &tog 3            &tog 1              &kp SPACE    &kp SPACE  &tog 2               &tog 4
+          &kp Q               &kp W           &kp F             &kp P           &kp B        &kp J      &kp L            &kp U              &kp Y            &kp SEMICOLON
+          &mt LEFT_CONTROL A  &mt LEFT_ALT R  &mt LEFT_SHIFT S  &mt LEFT_WIN T  &kp G        &kp M      &mt RIGHT_GUI N  &mt RIGHT_SHIFT E  &mt RIGHT_ALT I  &mt RIGHT_CONTROL O
+&kp CAPS  &kp X               &kp C           &kp D             &kp V           &kp Z        &kp K      &kp H            &kp COMMA          &kp DOT          &kp SLASH            &kp LEFT_BRACKET
+                                              &tog 3            &tog 1          &kp SPACE    &kp SPACE  &tog 2           &kp TAB
             >;
         };
 
