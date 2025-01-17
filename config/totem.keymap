@@ -175,7 +175,7 @@
         gaming_layer {
             bindings = <
                 &kp R  &kp A  &kp W   &kp D   &kp ESC    &kp PLUS          &trans             &kp UP_ARROW  &trans     &trans
-                &kp Q  &kp E  &kp S   &kp F   &kp G      &kp MINUS         &kp LEFT_ARROW     &kp DOWN      &kp RIGHT  &trans
+                &kp Q  &kp E  &kp S   &kp F   &kp M      &kp MINUS         &kp LEFT_ARROW     &kp DOWN      &kp RIGHT  &trans
 &kp LEFT_SHIFT  &kp Z  &kp X  &kp C   &kp V   &kp B      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans        &trans     &trans  &trans
                               &trans  &trans  &trans     &trans            &trans             &trans
             >;
