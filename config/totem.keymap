@@ -69,6 +69,16 @@
             bindings = <&tog 4>;
             key-positions = <7 2>;
         };
+
+        caps {
+            bindings = <&kp CAPS>;
+            key-positions = <21 22>;
+        };
+
+        win {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <27 26>;
+        };
     };
 
     keymap {
