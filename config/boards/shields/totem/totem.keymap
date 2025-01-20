@@ -69,6 +69,16 @@
             bindings = <&tog 4>;
             key-positions = <7 2>;
         };
+
+        caps {
+            bindings = <&kp CAPS>;
+            key-positions = <21 22>;
+        };
+
+        win {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <27 26>;
+        };
     };
 
     keymap {
@@ -93,10 +103,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-          &kp Q               &kp W           &kp F             &kp P           &kp B        &kp J      &kp L            &kp U              &kp Y            &kp SEMICOLON
-          &mt LEFT_CONTROL A  &mt LEFT_ALT R  &mt LEFT_SHIFT S  &mt LEFT_WIN T  &kp G        &kp M      &mt RIGHT_GUI N  &mt RIGHT_SHIFT E  &mt RIGHT_ALT I  &mt RIGHT_CONTROL O
-&kp CAPS  &kp X               &kp C           &kp D             &kp V           &kp Z        &kp K      &kp H            &kp COMMA          &kp DOT          &kp SLASH            &kp LEFT_BRACKET
-                                              &tog 3            &tog 1          &kp SPACE    &kp SPACE  &tog 2           &kp TAB
+                &kp Q  &kp W  &kp F   &kp P   &kp B        &kp J      &kp L   &kp U          &kp Y    &kp SEMICOLON
+                &kp A  &kp R  &kp S   &kp T   &kp G        &kp M      &kp N   &kp E          &kp I    &kp O
+&kp LEFT_SHIFT  &kp X  &kp C  &kp D   &kp V   &kp Z        &kp K      &kp H   &kp COMMA      &kp DOT  &kp RIGHT_CONTROL  &kp LEFT_BRACKET
+                              &tog 3  &tog 1  &kp SPACE    &kp SPACE  &tog 2  &kp RIGHT_ALT
             >;
         };
 
@@ -165,10 +175,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &sys_reset   &bt BT_CLR  &trans  &trans  &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F12
-        &bootloader  &bt BT_NXT  &trans  &trans  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans       &bt BT_PRV  &trans  &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                                 &trans  &trans  &trans    &trans  &trans  &trans
+        &sys_reset   &bt BT_PRV    &bt BT_CLR      &bt BT_NXT     &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F12
+        &bootloader  &bt BT_SEL 0  &bt BT_CLR_ALL  &bt BT_DISC 0  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &trans       &trans        &trans          &trans         &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+                                   &trans          &trans         &trans    &trans  &trans  &trans
             >;
         };
 
